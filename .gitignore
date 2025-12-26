@@ -1,0 +1,70 @@
+# Dependencies
+node_modules/
+npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+config.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+.vscode-test/
+.history/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.mongodb
+
+# Uploads (keep structure but ignore contents)
+uploads/*
+!uploads/.gitkeep
+
+# Cache
+.cache/
+cache/
+
+# Vite
+.vite/
+
+# Package manager lock files (uncomment if you want to include them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml

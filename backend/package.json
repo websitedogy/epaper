@@ -1,0 +1,29 @@
+{
+  "name": "epaper-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend server for E-Paper Admin Panel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "cleanup": "node cleanup-clients.js",
+    "list": "node list-clients.js",
+    "test-create": "node test-client-create.js",
+    "test-menu": "node test-menu-visibility.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "form-data": "^4.0.5",
+    "fs-extra": "^11.3.2",
+    "mongoose": "^8.0.3",
+    "multer": "^2.0.2",
+    "node-fetch": "^3.3.2",
+    "pdf-parse": "^2.4.5",
+    "pdf-poppler": "^0.2.3",
+    "pdf2pic": "^3.2.0"
+  }
+}
