@@ -8,6 +8,7 @@ import {
 import protect from "../middleware/adminAuth.js";
 import upload from "../middleware/upload.js";
 
+//Example
 const router = express.Router();
 
 // All routes except getClippingByClipId require authentication
