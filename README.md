@@ -91,3 +91,4 @@ Frontend will run on `http://localhost:5173`
 - MongoDB (Mongoose)
 
 "# epaper" 
+"# MERN_whitelabel_epaper" 
